@@ -1,17 +1,15 @@
 import React from "react";
 
-const Navbar = () => {
+const NavBar = () => {
   return (
     <div>
-      <center>
-        <hr></hr>
-        <h1 style={{ backgroundColor: "burlywood", fontSize: "30px" }}>
-          Welcome All
-        </h1>
-        <hr></hr>
-      </center>
+      <hr></hr>
+      <h1 style={{ backgroundColor: "pink", fontSize: "30px" }}>
+        <center>Sachu</center>
+      </h1>
+      <hr></hr>
     </div>
   );
 };
 
-export default Navbar;
+export default NavBar;
