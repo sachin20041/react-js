@@ -5,7 +5,7 @@ const NavBar = () => {
     <div>
       <hr></hr>
       <h1 style={{ backgroundColor: "pink", fontSize: "30px" }}>
-        <center>Sachu</center>
+        <center>Sachin</center>
       </h1>
       <hr></hr>
     </div>

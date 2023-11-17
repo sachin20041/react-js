@@ -1,5 +1,5 @@
 import React from "react";
-const DynamicRendering = () => {
+const DynamicRender = () => {
   let clickedFramework = -1;
   const stateArr = useState(-1);
   const arr = ["ReactJS", "AngularJS", "VueJS", "NextJS", "JavaScript"];
@@ -16,4 +16,4 @@ const DynamicRendering = () => {
     </>
   );
 };
-export default DynamicRendering;
+export default DynamicRender;

@@ -1,5 +1,5 @@
 import { useState } from "react";
-const GokuTransformation = () => {
+const Goku = () => {
   const [currentState, setState] = useState("Kaioken");
   return (
     <div>
@@ -15,4 +15,4 @@ const GokuTransformation = () => {
     </div>
   );
 };
-export default GokuTransformation;
+export default Goku;

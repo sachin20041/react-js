@@ -1,14 +1,20 @@
-const Cart = ({ products }) => {
-    return (
-      <div className="px-6">
-        <h1 className="text-2xl font-bold">Cart</h1>
-        <ul>
-          {products.map((item, index) => (
-            <li key={index}>{item.name}</li>
-          ))}
-        </ul>
-      </div>
-    );
-  };
-  
-  export default Cart;
+const categories = [
+  {
+    
+    title: "Coffee",
+    items: [
+      { name: "Cold Coffee", price: 80 },
+      { name: "Chocolate Coffee", price: 150 },
+    ],
+  },
+  {
+    title: "Tea",
+    items: [
+      { name: "Lemon Tea", price: 20 },
+      { name: "Masala Tea", price: 25 },
+    ],
+  },
+];
+
+
+export default categories;
