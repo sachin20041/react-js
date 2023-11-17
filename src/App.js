@@ -1,3 +1,16 @@
+import React from 'react';
+import Basic from "./Day-2/Basic";
+
+function App() {
+  return(
+    <div>
+      <Basic/>
+    </div>
+  );
+}
+
+export default App;
+
 /*import  "./App.css";
 import React from 'react';
 import MaterialButton from './Day-4/MaterialButton';
@@ -50,7 +63,7 @@ function App() {
 }
 export default App;*/
 
-import Navbar from "./components/Navbar";
+/*import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 function App() {
@@ -62,7 +75,7 @@ function App() {
       </div>
   );
 }
-export default App;
+export default App;*/
 /*import  "./App.css";
 import Style from "./Day-2/Style";
 function App(){
